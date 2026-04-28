@@ -1,0 +1,106 @@
+.auth-layout,
+.dashboard-layout {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.3), transparent 25%),
+    radial-gradient(circle at 80% 30%, rgba(168, 85, 247, 0.25), transparent 28%),
+    radial-gradient(circle at 50% 80%, rgba(34, 197, 94, 0.18), transparent 30%);
+  filter: blur(10px);
+}
+
+.auth-shell {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.auth-card {
+  width: min(100%, 440px);
+  border-radius: 24px;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+.auth-brand {
+  margin-bottom: 8px;
+}
+
+.brand-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 6px 12px;
+  border-radius: 999px;
+  color: #93c5fd;
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(96, 165, 250, 0.25);
+  font-size: 14px;
+}
+
+.auth-subtitle {
+  color: rgba(226, 232, 240, 0.78);
+  margin-bottom: 0;
+}
+
+.auth-card .ant-card-body {
+  padding: 32px;
+}
+
+.auth-card .ant-typography,
+.auth-card .ant-form-item-label > label,
+.auth-card .ant-checkbox-wrapper {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.auth-card .ant-input,
+.auth-card .ant-input-password,
+.auth-card .ant-btn {
+  height: 44px;
+  border-radius: 12px;
+}
+
+.auth-card .ant-input,
+.auth-card .ant-input-affix-wrapper {
+  background: rgba(15, 23, 42, 0.7);
+  border-color: rgba(148, 163, 184, 0.2);
+  color: #fff;
+}
+
+.auth-card .ant-input::placeholder {
+  color: rgba(203, 213, 225, 0.55);
+}
+
+.auth-card .ant-btn-primary {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  border: none;
+}
+
+.dashboard-layout {
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.dashboard-card {
+  width: min(100%, 720px);
+  padding: 32px;
+  border-radius: 24px;
+  background: rgba(15, 23, 42, 0.76);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+.dashboard-card .ant-typography {
+  color: rgba(255, 255, 255, 0.92);
+}

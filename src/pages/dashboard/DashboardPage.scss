@@ -1,0 +1,23 @@
+.dashboard-layout {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 30%),
+    radial-gradient(circle at top right, rgba(168, 85, 247, 0.18), transparent 30%),
+    linear-gradient(135deg, #0f172a, #111827);
+}
+
+.dashboard-card {
+  width: min(100%, 720px);
+  padding: 32px;
+  border-radius: 24px;
+  background: rgba(15, 23, 42, 0.76);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+
+  .ant-typography {
+    color: rgba(255, 255, 255, 0.92);
+  }
+}
