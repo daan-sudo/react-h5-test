@@ -52,7 +52,7 @@ function LoginPage() {
             <div className="brand-badge">Demo Login</div>
             <div>
               <Typography.Title level={2} style={{ margin: 0 }}>
-                欢迎登录11
+                欢迎登录113f但是
               </Typography.Title>
               <Typography.Paragraph className="auth-subtitle">
                 输入账号密码后，将跳转到登录后的页面。
